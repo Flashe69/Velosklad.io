@@ -5253,18 +5253,7 @@ footer
 }
 .cabinet__nav-tabs
 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
     padding: 30px 0;
-
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
 }
 .cabinet__nav-tabs .nav-tabs
 {
@@ -6165,6 +6154,26 @@ footer
     .btn-show .button-clear
     {
         height: 40px;
+    }
+}
+.navigation-row
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+@media (max-width: 47.9em)
+{
+    .navigation-row
+    {
+        width: 100%;
     }
 }
 .post
